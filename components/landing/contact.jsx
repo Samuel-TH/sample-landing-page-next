@@ -129,17 +129,17 @@ export default function LandingContact({ block, dataBinding }) {
                     </label>
 
                     <p className="reveal-if-sms" style={{margin: 0 + '!important'}}>By entering your mobile number and checking this box you agree to receive text alerts from Twin Health. Text HELP to 56859 for help or STOP to 56859 to end. Frequency varies, message & data rates apply. By opting in, you authorize Twin Health to deliver SMS messages using an automatic telephone dialing system and you understand that you are not required to opt in. By leaving this box unchecked you will not be opted in. Click to read
-                        <span className="orange"><a target="_blank" href="https://docs.google.com/document/d/1Qx-h-MoZxneqbf5MZvKZdY717C_FP0uY/edit">Terms of Use</a></span> and <span className="orange"><a target="_blank" href="https://www.usa.twinhealth.com/privacy-policy">Privacy policy.</a></span>
+                        <span className="orange"><a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1Qx-h-MoZxneqbf5MZvKZdY717C_FP0uY/edit">Terms of Use</a></span> and <span className="orange"><a target="_blank" rel="noreferrer" href="https://www.usa.twinhealth.com/privacy-policy">Privacy policy.</a></span>
                     </p>
 
                     <label className="checkbox__container" for="terms">
                         <input type="checkbox" id="terms" name="terms" value="1" required />
                         <span className="form_tos">
                             I agree to the&nbsp;
-                            <a className="form__link" href="https://www.usa.twinhealth.com/terms-of-use" target="_blank">terms of use,&nbsp;</a>
-                            <a className="form__link" href="https://www.usa.twinhealth.com/privacy-policy" target="_blank">privacy policy</a>
+                            <a className="form__link" href="https://www.usa.twinhealth.com/terms-of-use" target="_blank" rel="noreferrer">terms of use,&nbsp;</a>
+                            <a className="form__link" href="https://www.usa.twinhealth.com/privacy-policy" target="_blank" rel="noreferrer">privacy policy</a>
                             &nbsp;and&nbsp;
-                            <a className="form__link" href="https://docs.google.com/document/d/1VlJGa5LLzYytI9T3YGefDs15BQ1gm_7Y/edit?usp=sharing&ouid=108475280664340247693&rtpof=true&sd=true" target="_blank">privacy practices.</a>
+                            <a className="form__link" href="https://docs.google.com/document/d/1VlJGa5LLzYytI9T3YGefDs15BQ1gm_7Y/edit?usp=sharing&ouid=108475280664340247693&rtpof=true&sd=true" target="_blank" rel="noreferrer">privacy practices.</a>
                         </span>
                     </label>
 
