@@ -5,6 +5,7 @@ export default function LandingExplanation ({block, dataBinding}) {
         <div class="three-column">
             <div class="how-it-works__content-block">
                 <img
+                    alt=""
                     src="https://assets-global.website-files.com/61bb94aac2044c184bd14b46/64add609a1d003e93fd8109b_TH-BC-7.jpg"/>
                 <p class="step-header">STEP 1</p>
                 <h1 class="how_it_work_header">Schedule a free consultation</h1>
@@ -14,6 +15,7 @@ export default function LandingExplanation ({block, dataBinding}) {
             </div>
             <div class="how-it-works__content-block">
                 <img
+                    alt=""
                     src="https://assets-global.website-files.com/61bb94aac2044c184bd14b46/64ade07c28dbe916bac3415a_twin-phone-3col-2.png"/>
                 <p class="step-header">STEP 2</p>
                 <h1 class="how_it_work_header">Get verified for the program</h1>
@@ -22,6 +24,7 @@ export default function LandingExplanation ({block, dataBinding}) {
             </div>
             <div class="how-it-works__content-block">
                 <img
+                    alt=""
                     src="https://assets-global.website-files.com/61bb94aac2044c184bd14b46/64c31f9827e7e7c97f2256da_Lifestyle_03.jpeg"/>
                 <p class="step-header">STEP 3</p>
                 <h1 class="how_it_work_header">Activate your Whole Body Digital Twin<sup>TM</sup></h1>
