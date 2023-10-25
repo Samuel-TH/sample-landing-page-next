@@ -1,0 +1,21 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Landing Nav
+  description: Landing Navbar
+  icon: "cottage"
+  tags: ["nav"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  partnerLogo: https://assets-global.website-files.com/61bb94aac2044c184bd14b46/64c2ef6853bfe9e1f0e78f83_BCN_logo%20wo%20dislcaimer_all%20blue_rgb%20(1).png
+  headline: Life without Type 2 diabetes is possible
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
