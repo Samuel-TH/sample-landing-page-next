@@ -12,7 +12,7 @@ export default function DefaultLayout({ children, page }) {
 
 	return (
 		<>
-			<Head>
+			{/* <Head>
 				<meta charSet="utf-8" />
 
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -61,9 +61,9 @@ export default function DefaultLayout({ children, page }) {
 				  ]}
 			/>
 
-			<Navigation page={page}/>
+			<Navigation page={page}/> */}
             {children}
-			<Footer page={page}/>
+			{/* <Footer page={page}/> */}
 
 			<script src="/vendor/jQuery/jquery.min.js" async></script>
 			<script src="/vendor/bootstrap/bootstrap.bundle.min.js" async></script>
