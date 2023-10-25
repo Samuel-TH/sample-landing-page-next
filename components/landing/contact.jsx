@@ -25,7 +25,7 @@ export default function LandingContact({ block, dataBinding }) {
                     <div className="contact_form_row birthdate_row">
                         <label className="visually-hidden" for="00N5Y00000TioGt">Date of Birth</label>
                         <input style={{width: "100%" }} id="00N5Y00000TioGt" name="00N5Y00000TioGt" size="12" type="text" placeholder="Birthdate (MM/DD/YYYY)*" pattern="^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/(19\d{2}|20[0-1]\d|202[0-2])$" required />
-                        <img id="calendarIcon" className="calendarIcon" src="https://uploads-ssl.webflow.com/61bb94aac2044c184bd14b46/64719b336194e83c48901d58_calendar.svg" />
+                        <img alt="" id="calendarIcon" className="calendarIcon" src="https://uploads-ssl.webflow.com/61bb94aac2044c184bd14b46/64719b336194e83c48901d58_calendar.svg" />
                     </div>
 
                     <label for="country_code" style={{display: "none"}} className="hidden-label">Country</label>
