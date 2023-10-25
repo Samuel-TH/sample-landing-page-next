@@ -28,7 +28,7 @@ export default function LandingExplanation ({block, dataBinding}) {
                     src="https://assets-global.website-files.com/61bb94aac2044c184bd14b46/64c31f9827e7e7c97f2256da_Lifestyle_03.jpeg"/>
                 <p class="step-header">STEP 3</p>
                 <h1 class="how_it_work_header">Activate your Whole Body Digital Twin<sup>TM</sup></h1>
-                <div class="how_it_work_description">Once verified, you'll meet your Twin Health care team through video
+                <div class="how_it_work_description">Once verified, you will meet your Twin Health care team through video
                     visits to help you set up your sensors that include a continuous glucose monitor, blood pressure
                     monitor, smart scale and an activity tracker — all at no cost to you.</div>
             </div>
