@@ -19,6 +19,10 @@ content_blocks:
     videoSrc: https://player.vimeo.com/video/851460585?loop=false&amp;autoplay=false&amp;muted=false&amp;gesture=media&amp;playsinline=true&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=false&amp;customControls=true
     
   - _bookshop_name: landing/explanation
+    title: How the Twin Health program works
+    step1: Speak with a Twin Health enrollment advisor who will assess your eligibility and goals, review the Twin Health program and walk you through the steps to enroll.
+    step2: Download the Twin Health app, set up your health profile and complete a lab test to verify that you’re clinically eligible for the program.
+    step3: Once verified, you will meet your Twin Health care team through video visits to help you set up your sensors that include a continuous glucose monitor, blood pressure monitor, smart scale and an activity tracker — all at no cost to you.
   - _bookshop_name: landing/contact
 
 ---

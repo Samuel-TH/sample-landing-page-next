@@ -1,0 +1,24 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Landing Explanation
+  description: Landing Explanation section
+  icon: "credit_card"
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: How the Twin Health program works
+  step1: Speak with a Twin Health enrollment advisor who will assess your eligibility and goals, review the Twin Health program and walk you through the steps to enroll.
+  step2: Download the Twin Health app, set up your health profile and complete a lab test to verify that you’re clinically eligible for the program.
+  step3: Once verified, you will meet your Twin Health care team through video visits to help you set up your sensors that include a continuous glucose monitor, blood pressure monitor, smart scale and an activity tracker — all at no cost to you.
+  
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
