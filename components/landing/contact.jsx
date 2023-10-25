@@ -24,12 +24,12 @@ export default function LandingContact({ block, dataBinding }) {
 
                     <div className="contact_form_row birthdate_row">
                         <label className="visually-hidden" for="00N5Y00000TioGt">Date of Birth</label>
-                        <input style={{width: '100%' }} id="00N5Y00000TioGt" name="00N5Y00000TioGt" size="12" type="text" placeholder="Birthdate (MM/DD/YYYY)*" pattern="^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/(19\d{2}|20[0-1]\d|202[0-2])$" required />
+                        <input style={{width: "100%" }} id="00N5Y00000TioGt" name="00N5Y00000TioGt" size="12" type="text" placeholder="Birthdate (MM/DD/YYYY)*" pattern="^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/(19\d{2}|20[0-1]\d|202[0-2])$" required />
                         <img id="calendarIcon" className="calendarIcon" src="https://uploads-ssl.webflow.com/61bb94aac2044c184bd14b46/64719b336194e83c48901d58_calendar.svg" />
                     </div>
 
-                    <label for="country_code" style={{display: 'none'}} className="hidden-label">Country</label>
-                    <select style={{display: 'none'}} id="country_code" name="country_code">
+                    <label for="country_code" style={{display: "none"}} className="hidden-label">Country</label>
+                    <select style={{display: "none"}} id="country_code" name="country_code">
                         <option value="">--None--</option>
                         <option value="US" selected>US</option>
                     </select>
@@ -111,7 +111,7 @@ export default function LandingContact({ block, dataBinding }) {
                     <label className="visually-hidden" for="phone">Mobile phone number</label>
                     <input type="phone" id="phone" name="phone" maxlength="100" size="20" placeholder="Mobile phone number" />
 
-                    <label className="checkbox__container checkbox__container-new" for="00N5Y00000UHJbn" id='emailAlertsLabel' >
+                    <label className="checkbox__container checkbox__container-new" for="00N5Y00000UHJbn" id="emailAlertsLabel">
                         <input type="checkbox" id="00N5Y00000UHJbn" name="00N5Y00000UHJbn" value="1" />
                         <span>I agree to receive emails and understand that I can opt out anytime.</span>
                     </label>
@@ -128,7 +128,7 @@ export default function LandingContact({ block, dataBinding }) {
                         </span>
                     </label>
 
-                    <p className="reveal-if-sms" style={{margin: 0 + '!important'}}>By entering your mobile number and checking this box you agree to receive text alerts from Twin Health. Text HELP to 56859 for help or STOP to 56859 to end. Frequency varies, message & data rates apply. By opting in, you authorize Twin Health to deliver SMS messages using an automatic telephone dialing system and you understand that you are not required to opt in. By leaving this box unchecked you will not be opted in. Click to read
+                    <p className="reveal-if-sms" style={{margin: 0 + "!important"}}>By entering your mobile number and checking this box you agree to receive text alerts from Twin Health. Text HELP to 56859 for help or STOP to 56859 to end. Frequency varies, message & data rates apply. By opting in, you authorize Twin Health to deliver SMS messages using an automatic telephone dialing system and you understand that you are not required to opt in. By leaving this box unchecked you will not be opted in. Click to read
                         <span className="orange"><a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1Qx-h-MoZxneqbf5MZvKZdY717C_FP0uY/edit">Terms of Use</a></span> and <span className="orange"><a target="_blank" rel="noreferrer" href="https://www.usa.twinhealth.com/privacy-policy">Privacy policy.</a></span>
                     </p>
 
@@ -145,7 +145,7 @@ export default function LandingContact({ block, dataBinding }) {
 
                     <label for="00N5Y00000QeOKA" className="hidden-label">Blue Care Network of Michigan</label>
                     <input
-                        style={{display: 'none'}}
+                        style={{display: "none"}}
                         id="00N5Y00000QeOKA"
                         maxlength="255"
                         name="00N5Y00000QeOKA"
