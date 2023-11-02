@@ -38,19 +38,4 @@ content_blocks:
       monitor, blood pressure monitor, smart scale and an activity tracker — all
       at no cost to you.
   - _bookshop_name: landing/contact
-  - _bookshop_name: home/hero
-    title: Email Marketing is Future for Grow Your Business Revenues
-    description: >-
-      We believe that a good email marketing strategy is the key to growth. So
-      we’re helping you grow your business with tools and resources that make
-      email marketing easy.
-    image: /images/hero/hero-image-2.png
-    image_alt: Dashboard with reports
-    button:
-      text: Try This Free
-      link: /signup
-  - _bookshop_name: landing/nav
-    partnerLogo: >-
-      https://assets-global.website-files.com/61bb94aac2044c184bd14b46/64c2ef6853bfe9e1f0e78f83_BCN_logo%20wo%20dislcaimer_all%20blue_rgb%20(1).png
-    headline: Life without Type 2 diabetes is possible
 ---
