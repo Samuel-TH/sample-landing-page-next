@@ -1,10 +1,4 @@
-<div class="container">
+<div class="container"
   <div>LEFT COL</div>
   <div>RIGHT COL</div>
 </div>
-
-<style>
-  .container {
-    display: flex;
-  }
-</style>
